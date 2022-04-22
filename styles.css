@@ -276,12 +276,14 @@
                     background-color: #ff986f;
                     padding: 100px 30px 70px 30px;
                     color: white;
-                    margin: 0px 50px;
                 }
                 
                 @media(max-width:810px) {
                     #section-4 {
                         margin-top: 40px;
+                    }
+                  .reasonsWhy {
+                        margin-left: 30px;
                     }
                 }
                 /* section5 */
@@ -535,11 +537,17 @@
                 /* section10 */
                 
                 #section-10 {
-                    margin: 90px 50px 0px 50px;
+                    margin: 90px ;
                     background-color: #ff986f;
                     text-align: center;
                     padding: 85px;
                     color: white;
+                }
+
+ @media(max-width:810px) {
+                    #section-10 {
+                        margin-left: 30px;
+                    }
                 }
                 
                 #section-10 .button {
@@ -592,6 +600,12 @@
                     opacity: 0.9;
                 }
                 
+
+ @media (max-width :810px) {
+                    #section-11  {
+                        margin-left: 30px;
+                    }
+                }
                 @media (max-width :530px) {
                     #section-11 h4 {
                         font-size: 0.7rem;
