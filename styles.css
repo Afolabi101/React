@@ -13,6 +13,12 @@
                 }
                 /* navbarcss  */
                 
+  @media(max-width :760px) {
+                    body {
+                        overflow-y: auto;
+                    }
+                }
+
                 body {
                     background-color: #fcfcfc;
                     width:100%;
