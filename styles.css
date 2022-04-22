@@ -543,12 +543,11 @@
                 /* section11 */
                 
                 #section-11 {
-                    margin-top: 130px;
+                    margin-top: 130px 50px 0px 50px;
                     padding: 95px 90px;
                     background-color: black;
                     color: white;
                    width: 100%;
-                    margin-right: 0px;
                 }
                 
                 #section-11 p {
