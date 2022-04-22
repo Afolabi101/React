@@ -42,7 +42,7 @@ var typed = new Typed(".auto-input", {
     strings: ["Designers", "Technical Talents", ],
     typeSpeed: 120,
     backSpeed: 120,
-    // loop: true
+     loop: true
 });
 
 $(".typed-cursor").css("visibility", "hidden");
