@@ -270,6 +270,8 @@
                     background-color: #ff986f;
                     padding: 100px 30px 70px 30px;
                     color: white;
+                      margin: 0px 50px;
+
                 }
                 
                 @media(max-width:810px) {
@@ -528,7 +530,7 @@
                 /* section10 */
                 
                 #section-10 {
-                    margin-top: 90px;
+                    margin: 90px 50px 0px 50px;
                     background-color: #ff986f;
                     text-align: center;
                     padding: 85px;
@@ -545,6 +547,8 @@
                     padding: 95px 90px;
                     background-color: black;
                     color: white;
+                   width: 100%;
+                    margin-right: 0px;
                 }
                 
                 #section-11 p {
