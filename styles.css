@@ -13,11 +13,9 @@
                 }
                 /* navbarcss  */
                 
-               
-                
                 body {
                     background-color: #fcfcfc;
-                    width: 105%;
+                    width: 100%;
                     margin: 0;
                     padding: 0;
                     -webkit-box-sizing: border-box;
@@ -172,8 +170,15 @@
                     margin-top: 136px;
                 }
                 
+                .p {
+                    font-size: 20px;
+                    line-height: 30px;
+                }
+                
                 .first-body h1 {
                     font-weight: 700px;
+                    font-size: 48px;
+                    line-height: 60px;
                 }
                 
                 .button {
@@ -270,16 +275,17 @@
                 
                 .reasonsWhy {
                     background-color: #ff986f;
-                    padding: 100px 30px 70px 30px;
+                    padding: 100px 68px 70px 30px;
                     color: white;
+                    width: 105%;
                 }
                 
                 @media(max-width:810px) {
                     #section-4 {
                         margin-top: 40px;
                     }
-                  .reasonsWhy {
-                        margin-left: 60px;
+                    .reasonsWhy {
+                        margin-left: 30px;
                     }
                 }
                 /* section5 */
@@ -392,14 +398,21 @@
                 .sade {
                     margin-top: 50px;
                 }
-                /* section-8 */
                 
-                #section-8 .row {
-                    text-align: center;
+                #section-8 h4 {
+                    padding: 0px 280px;
+                    line-height: 38px;
                 }
                 
                 #section-8 {
                     margin-top: 30px;
+                    text-align: center;
+                }
+                
+                @media(max-width:1113px) {
+                    #section-8 h4 {
+                        display: table-footer-group;
+                    }
                 }
                 
                 @media(max-width:991px) {
@@ -533,21 +546,34 @@
                 /* section10 */
                 
                 #section-10 {
-                    margin: 90px ;
+                    margin-top: 90px;
                     background-color: #ff986f;
                     text-align: center;
-                    padding: 85px;
+                    padding: 85px 160px 85px 85px;
                     color: white;
-                }
-
- @media(max-width:810px) {
-                    #section-10 {
-                        margin-left: 30px;
-                    }
+                    width: 105%;
                 }
                 
                 #section-10 .button {
                     font-size: 0.8rem;
+                }
+                
+                #section-10 .button1 {
+                    background-color: #fff;
+                    color: #FF6C32;
+                    border-radius: 10px;
+                }
+                
+                #section-10 .button2 {
+                    background-color: #ff986f;
+                    color: white;
+                    border-radius: 10px;
+                }
+                
+                @media(max-width:810px) {
+                    #section-10 {
+                        margin-left: 30px;
+                    }
                 }
                 /* section11 */
                 
@@ -596,12 +622,12 @@
                     opacity: 0.9;
                 }
                 
-
- @media (max-width :810px) {
-                    #section-11  {
-                        margin-left: 60px;
+                @media (max-width :810px) {
+                    #section-11 {
+                        margin-left: 30px;
                     }
                 }
+                
                 @media (max-width :530px) {
                     #section-11 h4 {
                         font-size: 0.7rem;
