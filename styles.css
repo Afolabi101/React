@@ -13,11 +13,7 @@
                 }
                 /* navbarcss  */
                 
-                @media(max-width :700px) {
-                    body {
-                        overflow: hidden;
-                    }
-                }
+               
                 
                 body {
                     background-color: #fcfcfc;
@@ -283,7 +279,7 @@
                         margin-top: 40px;
                     }
                   .reasonsWhy {
-                        margin-left: 30px;
+                        margin-left: 60px;
                     }
                 }
                 /* section5 */
@@ -603,7 +599,7 @@
 
  @media (max-width :810px) {
                     #section-11  {
-                        margin-left: 30px;
+                        margin-left: 60px;
                     }
                 }
                 @media (max-width :530px) {
