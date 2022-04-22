@@ -13,9 +13,9 @@
                 }
                 /* navbarcss  */
                 
-  @media(max-width :760px) {
+  @media(max-width :700px) {
                     body {
-                        overflow-y: auto;
+                        overflow: hidden;
                     }
                 }
 
@@ -549,7 +549,7 @@
                 /* section11 */
                 
                 #section-11 {
-                    margin-top: 130px 50px 0px 50px;
+                    margin-top: 130px;
                     padding: 95px 90px;
                     background-color: black;
                     color: white;
