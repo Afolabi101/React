@@ -12,7 +12,11 @@
                     opacity: 1;
                 }
                 /* navbarcss  */
-                
+ section {
+                    width: 100%;
+                }
+                                
+
                 body {
                     background-color: #fcfcfc;
                     width: 100%;
