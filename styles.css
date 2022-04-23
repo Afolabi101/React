@@ -215,7 +215,7 @@
                 #section-3 {
                     display: inline-block;
                     position: relative;
-                    bottom: 20px;
+                    bottom: 26px;
                 }
                 
                 .featured {
@@ -231,8 +231,8 @@
                     display: flex;
                     justify-content: center;
                     position: relative;
-                    right: 237px;
-                    bottom: 103px;
+                    right: 190px;
+                    bottom: 94px;
                 }
                 
                 .press-img {
@@ -255,7 +255,7 @@
                 #section-4 {
                     text-align: center;
                     position: relative;
-                    bottom: 120px;
+                    bottom: 130px;
                 }
                 
                 #section-4 p {
@@ -275,21 +275,13 @@
                 
                 .reasonsWhy {
                     background-color: #ff986f;
-                    padding: 100px 68px 70px 30px;
+                    padding: 100px 30px 70px 30px;
                     color: white;
-                    width: 105%;
                 }
                 
                 @media(max-width:810px) {
                     #section-4 {
                         margin-top: 40px;
-                    }
-                    .reasonsWhy {
-                        margin-left: 30px;
-                    }
-                  #section-4 svg {
-                        width: 6%;
-                        
                     }
                 }
                 /* section5 */
@@ -297,12 +289,14 @@
                 #section-5 {
                     text-align: center;
                     margin-top: 30px;
+                    position: relative;
+                    bottom: 69px;
                 }
                 
                 .vector7 {
                     position: absolute;
-                    left: 258px;
-                    top: 1515px;
+                    left: 261px;
+                    top: 124px;
                 }
                 
                 .ecl93 {
@@ -345,6 +339,12 @@
                 }
                 /* section6 */
                 
+                #section-6 {
+                    position: relative;
+                    bottom: 100px;
+                    margin-top: 90px;
+                }
+                
                 #section-6 h4 {
                     font-size: 18px;
                     line-height: 1.5;
@@ -356,6 +356,11 @@
                     }
                 }
                 /*section7 */
+                
+                #section-7 {
+                    position: relative;
+                    bottom: 131px;
+                }
                 
                 #section-7 button {
                     border: none;
@@ -391,17 +396,15 @@
                     margin-top: 50px;
                 }
                 
-                .c1 {
-                    visibility: hidden;
-                }
-                
-                .c2 {
-                    visibility: hidden;
-                }
-                
                 .sade {
                     margin-top: 50px;
                 }
+                /* section-8 */
+                /* #section-8 .row {
+                    text-align: center;
+                    position: relative;
+                    left: 190px;
+                } */
                 
                 #section-8 h4 {
                     padding: 0px 280px;
@@ -553,9 +556,8 @@
                     margin-top: 90px;
                     background-color: #ff986f;
                     text-align: center;
-                    padding: 85px 160px 85px 85px;
+                    padding: 85px;
                     color: white;
-                    width: 105%;
                 }
                 
                 #section-10 .button {
@@ -573,12 +575,6 @@
                     color: white;
                     border-radius: 10px;
                 }
-                
-                @media(max-width:810px) {
-                    #section-10 {
-                        margin-left: 30px;
-                    }
-                }
                 /* section11 */
                 
                 #section-11 {
@@ -586,7 +582,6 @@
                     padding: 95px 90px;
                     background-color: black;
                     color: white;
-                    width: 105%;
                 }
                 
                 #section-11 p {
@@ -624,12 +619,6 @@
                 .me:hover {
                     color: white;
                     opacity: 0.9;
-                }
-                
-                @media (max-width :810px) {
-                    #section-11 {
-                        margin-left: 30px;
-                    }
                 }
                 
                 @media (max-width :530px) {
