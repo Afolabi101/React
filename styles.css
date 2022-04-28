@@ -12,9 +12,14 @@
                     opacity: 1;
                 }
                 /* navbarcss  */
-
-                                
-
+                
+                @media (max-width:600px) {
+                    body {
+                        width: max-content;
+                        display: contents;
+                    }
+                }
+                
                 body {
                     background-color: #fcfcfc;
                     width: 100%;
@@ -168,7 +173,7 @@
                     text-align: center;
                     overflow: hidden;
                     background-color: #ffe1d6;
-                    margin: 90px 60px 0 60px;
+                    margin: 90px 142px 0 60px;
                     margin-top: 136px;
                 }
                 
